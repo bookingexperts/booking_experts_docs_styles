@@ -424,3 +424,26 @@ textarea, input[type=text], input[type=password], input[type=datetime], input[ty
 .navbar .pull-right > li > .dropdown-menu .dropdown-menu, .navbar .nav > li > .dropdown-menu.pull-right .dropdown-menu {
   border-radius: var(--border-radius) 0 var(--border-radius) var(--border-radius);
 }
+
+/*
+ * Code zooming article images
+ */
+
+body {
+  position: relative;
+}
+
+#fullArticle img {
+  cursor: pointer;
+}
+
+.image-modal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.2);
+  padding: 5em;
+  cursor: pointer;
+}
