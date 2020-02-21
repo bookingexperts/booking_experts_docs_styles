@@ -426,6 +426,27 @@ textarea, input[type=text], input[type=password], input[type=datetime], input[ty
 }
 
 /*
+ * Code switching locales
+ */
+
+.locale-switch {
+  background: #333333;
+  padding: 10px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .locale-switch {
+    margin: 0 -20px;
+  }
+}
+
+.locale-switch__link {
+  color: white;
+  text-decoration: underline;
+}
+
+/*
  * Code zooming article images
  */
 
@@ -438,17 +459,19 @@ body {
 }
 
 .image-modal {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   background: rgba(0,0,0,0.2);
-  padding: 5em;
+  padding: 5em 1em;
   cursor: pointer;
   text-align: center;
 }
 
 .image-modal img {
   border-radius: 5px;
+  max-height: 100%;
+  box-shadow: 0 5px 30px rgba(0,0,0,0.3);
 }
