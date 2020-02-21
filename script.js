@@ -16,7 +16,7 @@
             var domain = window.location.hostname
             var header = jQuery(
               '<header class="locale-switch">' +
-                '<a href="' + linkUrl[domain] + '" class="locale-switch__link">' +
+                '<a href="//' + linkUrl[domain] + '" class="locale-switch__link">' +
                   linkName[domain] +
                 '</a>' +
               '</header>'
