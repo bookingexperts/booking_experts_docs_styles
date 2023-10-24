@@ -207,7 +207,7 @@ h4 {
  */
 
 #docsSearch {
-  background-image: linear-gradient(-90deg, var(--color-orange) 0%, var(--color-pink) 100%) !important;
+  background-color: var(--color-green) !important;
   border-bottom: transparent !important;
   padding-top: 0 !important;
 }
