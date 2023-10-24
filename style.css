@@ -41,7 +41,7 @@ body
 */
 
 :root {
-  --color-orange:        #EE7F4B;
+  --color-orange:        #F86605;
   --color-pink:          #E9506E;
   --color-green:         #09954F;
   --color-white:         #FFFFFF;
@@ -233,9 +233,9 @@ h4 {
 
 #docsSearch #searchBar button {
   top: auto !important;
-  background: var(--color-yellow);
+  background: var(--color-orange);
   border-color: transparent;
-  color: var(--color-grey-darkest);
+  color: var(--color-white);
   font-weight: 600;
   text-shadow: none;
 }
