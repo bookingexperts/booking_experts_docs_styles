@@ -1,35 +1,28 @@
 @font-face {
-  font-family: "Avenir Next";
-  src: url("./AvenirNext-Regular.woff2") format("woff2"), url("./AvenirNext-Regular.woff") format("woff"), url("./AvenirNext-Regular.ttf") format("truetype");
+  font-family: "Mona Sans";
+  src: url("./Mona-Sans-Regular.woff2") format("woff2"), url("./Mona-Sans-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Avenir Next";
-  src: url("./AvenirNext-Italic.woff2") format("woff2"), url("./AvenirNext-Italic.woff") format("woff"), url("./AvenirNext-Italic.ttf") format("truetype");
+  font-family: "Mona Sans";
+  src: url("./Mona-Sans-RegularItalic.woff2") format("woff2"), url("./Mona-Sans-RegularItalic.ttf") format("truetype");
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
-  font-family: "Avenir Next";
-  src: url("./AvenirNext-Demi.woff2") format("woff2"), url("./AvenirNext-Demi.woff") format("woff"), url("./AvenirNext-Demi.ttf") format("truetype");
+  font-family: "Mona Sans";
+  src: url("./Mona-Sans-SemiBold.woff2") format("woff2"), url("./Mona-Sans-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Avenir Next";
-  src:url("./AvenirNext-Bold.woff2") format("woff2"), url("./AvenirNext-Bold.woff") format("woff"), url("./AvenirNext-Bold.ttf") format("truetype");
+  font-family: "Mona Sans";
+  src:url("./Mona-Sans-Bold.woff2") format("woff2"), url("./Mona-Sans-Bold.ttf") format("truetype");
   font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Avenir Next";
-  src: url("./AvenirNext-Heavy.woff2") format("woff2"), url("./AvenirNext-Heavy.woff") format("woff"), url("./AvenirNext-Heavy.ttf") format("truetype");
-  font-weight: 900;
   font-style: normal;
 }
 
@@ -95,7 +88,7 @@ html {
 
 body {
   color: var(--color-grey-darkest);
-  font-family: "Avenir Next", sans-serif;
+  font-family: "Mona Sans", sans-serif;
   line-height: var(--baseline);
   font-size: var(--text-base);
   background: var(--color-grey-lightest);
@@ -355,7 +348,7 @@ h4 {
 }
 
 .articleFoot p, .articleFoot time {
-  font-family: "Avenir Next", sans-serif;
+  font-family: "Mona Sans", sans-serif;
   line-height: var(--baseline);
   font-size: var(--text-sm);
   color: var(--color-grey);
